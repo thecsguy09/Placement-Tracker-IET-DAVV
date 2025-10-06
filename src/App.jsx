@@ -4,14 +4,12 @@ import BatchData from './components/BatchData'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import { ArrowUpRight } from 'lucide-react'
-import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {
   const [selectedBatch, setSelectedBatch] = useState(null)
 
   return (
     <>
-      <Analytics/>
 <div className="relative font-['Poppins'] bg-grid-black/[0.2] z-10 min-h-screen bg-gradient-to-br from-blue-950 via-gray-900 to-indigo-900 text-white flex flex-col
 ">
         
